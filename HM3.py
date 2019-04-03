@@ -17,12 +17,21 @@ def sumval():
     val1 = 0
     val2 = 0
     integ = []
-    while (val1 != 10 and val2 != 30):
-        integ.append(int(input("Enter a Number: ")))
-        val1 += 1
-        val2 += 1
+    while True:
+        num = int(input("Enter a Number: "))
+        integ.append(num)
+
+        if val1 <= 10:
+            val1 += num
+            val2 += num
+        elif val2 <= 30:
+            val2 += num
+        else:
+            break
+
 
     integ = sum(integ)
+    print(val1, val2, integ)
     print(val1 + val2 + integ)
 
 
@@ -30,18 +39,23 @@ sumval()
 
 
 def sumval2():
-    num1 = 0
+
     nums = []
 
-    while num1 < 10 or numssum < 30:
+    while True:
         num1 = int(input("Enter a Number: "))
         nums.append(num1)
-        numssum = sum(nums)
+
+        if num1 > 10:
+            break
+        elif (sum(nums)) > 30:
+            break
+
 
     print(sum(nums))
 
 
-#sumval2()
+sumval2()
 
 
 
