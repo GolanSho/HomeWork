@@ -58,5 +58,37 @@ def sumval2():
 sumval2()
 
 
+def arryinpt():
 
+    inptarry = []
+
+    arrylegh = int(input('Enter the array length:  '))
+    arylgh = arrylegh
+
+    while arrylegh > 0:
+        inptarry.append(None)
+        arrylegh -= 1
+
+    tknpos = []
+
+    for i in inptarry:
+        numpos = int(input('Enter a Position: '))
+        numin = int(input('Enter a Number: '))
+        tknpos.append(numpos)
+        print(f'used positions: {tknpos} ')
+        inptarry.pop(numpos)
+
+        if numin > 3 < 5:
+            numin = numin**2
+
+        inptarry.insert(numpos, numin)
+        arylgh -= 1
+
+        if arylgh == 0:
+            break
+
+    print(inptarry)
+
+
+arryinpt()
 
