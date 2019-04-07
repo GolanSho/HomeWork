@@ -14,7 +14,7 @@ def numinp():
     #    print(n)
     #    num_arry.remove(n)
     while len(num_arry) > 0:
-        print(num_arry.pop())
+        print(num_arry.pop(0))
 
 
 
