@@ -44,10 +44,10 @@ def suminarry():
     sum = 0
     while len(array[2][1][3]['nums']) > 0:
         num = array[2][1][3]['nums'].pop()
-        num += sum
-    print(sum)
-    newarray = array[2][1][3]['nums'].insert(0, sum)
+        sum += num
 
-    print(newarray)
+    array[2][1][3]['nums'].append(sum)
+
+    print(array)
 
 suminarry()
