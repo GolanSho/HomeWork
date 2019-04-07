@@ -17,7 +17,7 @@ def numinp():
         print(num_arry.pop(0))
 
 
-#numinp()
+numinp()
 
 
 def studict():
@@ -36,7 +36,7 @@ def studict():
     print(max)
 
 
-#studict()
+studict()
 
 
 def suminarry():
