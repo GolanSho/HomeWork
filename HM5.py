@@ -20,7 +20,22 @@ def twoparm(a='', *args):
 
 
 def add(a='', b=''):
-    print(a+b)
+    a += b
+   #print(sum)
 
 
-add(7, 5)
+#add(7, 5)
+
+
+
+
+def mull(c='', d=''):
+    sum2 = 0
+    for n in range(d):
+        sum2 += c
+
+
+    print(sum2)
+
+
+mull(7, 8)
