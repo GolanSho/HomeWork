@@ -31,4 +31,4 @@ def mul(a='', b=''):
     print(sum2)
 
 
-mul(10, 5)
+mul(8, 5)
