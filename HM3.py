@@ -29,7 +29,6 @@ def sumval():
         else:
             break
 
-
     integ = sum(integ)
     print(val1, val2, integ)
     print(val1 + val2 + integ)
@@ -50,7 +49,6 @@ def sumval2():
             break
         elif (sum(nums)) > 30:
             break
-
 
     print(sum(nums))
 

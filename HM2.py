@@ -1,4 +1,4 @@
-!#/usr/bin/env python3
+
 def full_name():
     fname = input('First name: ')
     lname = input('Last name: ')
@@ -66,21 +66,15 @@ def twoandone():
 twoandone()
 
 
-def threarr():
-    st1 = input('1st string: ')
-    st2 = input('2nd string: ')
-    st3 = input('3rd string: ')
-    arr = [st1, st2, st3]
+def threarr(a='', b='', c=''):
+    arr = [a, b, c]
+    arr2 = [1, 2, 3]
+    print(arr)
+    arr.reverse()
+    arr.remove(b)
+    arr.insert(1, arr2)
+    print(arr)
+    print(arr[1][1])
 
 
-
-threarr()
-
-    str4 = (str4.find('A'))
-    print(len(f'str4'))
-
-
-
-
-twoandone()
-
+threarr('one', 'two', 'three')

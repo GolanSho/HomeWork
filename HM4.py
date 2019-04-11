@@ -10,9 +10,6 @@ def numinp():
 
     num_arry = list(set(num_arry))
 
-    #for n in num_arry:
-    #   print(num_arry.pop(0))
-
     while len(num_arry) > 0:
         print(num_arry.pop(0))
 
@@ -49,5 +46,6 @@ def suminarry():
     array[2][1][3]['nums'].append(sum)
 
     print(array)
+
 
 suminarry()
